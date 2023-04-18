@@ -1,0 +1,53 @@
+.sidebar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 290px;
+    height: 100%;
+    background-color: #0e3256;
+    padding: 20px
+}
+
+.profile-pic {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li a {
+	display: block;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.menu li span{
+	margin-left: 20px;
+}
+
+.menu li a:hover {
+	background-color: #fff;
+	color: #333;
+}
+.user-info p{
+	background-color: #12385c;
+	color: #fff;
+	padding: 10px;
+}
+.user-info{
+	margin-bottom: 20px;
+}
